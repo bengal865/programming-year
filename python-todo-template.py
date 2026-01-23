@@ -1,11 +1,31 @@
-# First and last name
-# Current date
-# Project title
+"""
+NAME: 
+FILE: 01_logic_lab.py
+UNIT: Python Fundamentals
+GOAL: [Insert objective here]
+"""
 
-# --- PART 1: SETUP ---
-# TODO: Create a variable called 'username' and assign it a string value
-username = ""
+# TODO 1: Initialize the list and variables
+# === DELETE START ===
+numbers = [10, 21, 30, 43, 50]
+total = 0
+# === DELETE END ===
 
-# --- PART 2: LOGIC ---
-# TODO: Use an 'if' statement to check if the username is longer than 5 characters
-# HINT: Use the len() function
+
+# TODO 2: Create a loop to filter even numbers and add to total
+# === DELETE START ===
+for num in numbers:
+    if num % 2 == 0:
+        total += num
+# === DELETE END ===
+
+
+# TODO 3: Print the final result using an f-string
+# === DELETE START ===
+print(f"The sum of the even numbers is: {total}")
+# === DELETE END ===
+
+# =========================================================
+# 🧠 REFLECTION: Why did we use a loop here instead of sum()?
+# > 
+# =========================================================
